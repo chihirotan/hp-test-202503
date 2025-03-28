@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: bottom 25%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* 中央に配置 */
+    gap: 40px;
+    /* 間隔 */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+main .hero figure img {
+    width: 100%;
+
+
+}
+
+main .about .container {
+    width: 100%;
+    max-width: 700px;
+    background-color: aqua;
+    margin: 0 auto;
+
+}
+
+aside h2 {
+    font-size: 36px;
+    margin-bottom: 20px
+}
+
+aside p {
+    margin-bottom: 20px;
+
+}
+
+aside figure img {
+    width: 150px;
+
+
+}
